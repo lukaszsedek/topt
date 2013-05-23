@@ -1,0 +1,13 @@
+!SESSION 2013-05-23 16:32:59.987 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_45
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pl_PL
+Framework arguments:  -keyring /Users/lukaszsedek/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/lukaszsedek/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-05-23 16:33:20.376
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2013-05-23 16:33:34.594
+!MESSAGE Invalid preference page path: XML Syntax
