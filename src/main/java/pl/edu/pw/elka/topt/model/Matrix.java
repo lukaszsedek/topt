@@ -1,8 +1,8 @@
 package pl.edu.pw.elka.topt.model;
 
 public class Matrix {
-	static int rows = 1;
-	static int columns = 1;
+	static int rows = 2;
+	static int columns = 2;
 	
 	public Matrix(){
 		

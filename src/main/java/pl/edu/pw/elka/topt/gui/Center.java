@@ -4,6 +4,7 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
@@ -19,7 +20,8 @@ public class Center extends JPanel{
 	
 	{
 		try {
-			image = ImageIO.read(new File("Empty.png"));
+			URL url = getClass().getResource("/Empty.png");
+			image = ImageIO.read(url);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -43,10 +45,9 @@ public class Center extends JPanel{
 				for(int j = 0; j < Matrix.getRows(); ++j)
 				{
 					if( i%2 == 1)
-						g.drawImage(image, 64*(i) + 16, 64*(j)+ + 32+ 16, this);
+						g.drawImage(image, 48*(i) + 16, 48*(j)+ 24 + 24, this);
 					else
-						g.drawImage(image, 64*(i) + 16, 64*(j)+ 16, this);
-					System.out.println("col = " + i +  "row = " + j);
+						g.drawImage(image, 48*(i) + 16, 48*(j)+ 24, this);
 				}
 		}
 	}

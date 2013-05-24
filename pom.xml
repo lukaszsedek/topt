@@ -8,6 +8,10 @@
 	<name>toptproject</name>
 	<url>http://maven.apache.org</url>
 
+	<!-- <properties> -->
+	<!-- <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
+	<!-- </properties> -->
+
 	<build>
 		<plugins>
 			<plugin>
@@ -24,6 +28,11 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<directory>src/resources</directory>
+			</resource>
+		</resources>
 	</build>
 
 	<dependencies>
